@@ -1,4 +1,5 @@
 /* Function to reverse the linked list */
+/*Code to reverse linked list*/
 static void reverse(struct node** head_ref)
 {
     struct node* prev   = NULL;

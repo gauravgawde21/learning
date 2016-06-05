@@ -1,3 +1,4 @@
+/*Sample Hashmap Example*/
 import java.util.*;
 
 public class HashMapDemo {
