@@ -1,0 +1,19 @@
+student_ages = {
+    "Jack" => 10,
+    "Jill" => 12,
+    "Bob" => 14
+  }
+
+--------------------
+restaurant_menu = {}
+restaurant_menu["Ramen"] = 3
+--------------------
+
+ruby-1.9.2 > a = {:car => {:color => "red"}}
+ => {:car=>{:color=>"red"}} 
+ruby-1.9.2 > b = {:car => {:speed => "100mph"}}
+ => {:car=>{:speed=>"100mph"}} 
+ruby-1.9.2 > a.merge(b) {|key, a_val, b_val| a_val.merge b_val }
+ => {:car=>{:color=>"red", :speed=>"100mph"}} 
+
+--------------------
